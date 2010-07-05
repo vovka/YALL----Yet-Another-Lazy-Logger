@@ -1,0 +1,7 @@
+This is lazy loger based on standart logger. It can log info to different 
+files, creating them on the fly. Like this: 
+
+  logger.info msg #=> creates 'info.log' file and logs to it
+  logger.myfile msg #=> creates 'myfile.log' file and logs to it
+  #etc
+
